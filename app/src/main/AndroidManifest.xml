@@ -5,19 +5,21 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="My first Application"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFirstApplication">
         <activity
+            android:name=".geschlecht"
+            android:exported="true"
+            android:theme="@style/Theme.Geschlecht"/>
+        <activity
             android:name=".Interesse"
             android:exported="true"
-            android:theme="@style/Theme.Interesse"/>
-
+            android:theme="@style/Theme.Interesse" />
         <activity
             android:name=".SingUpScreen"
             android:exported="true" />
-
         <activity
             android:name=".SplashScreen"
             android:exported="true"
