@@ -94,17 +94,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun resetForm() {
-      /*  var message = "\nPassword: "  + binding.edPassword.text
-        AlertDialog.Builder(this)
-            .setTitle("Form submitted")
-            .setMessage(message)
-            .setPositiveButton("Okay"){_,_ ->
 
-               binding.edPassword.text = null
-
-                //binding.tvPassword.helperText = getString(R.string.required)
-            }
-            .show()*/
         binding.edPassword.text = null
 
 

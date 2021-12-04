@@ -3,14 +3,25 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/djeuf/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/drawable/buttonbg.xml" value="0.24583333333333332" />
-        <entry key="..\:/Users/djeuf/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/drawable/ic_baseline_geschlecht.xml" value="0.2703125" />
-        <entry key="..\:/Users/djeuf/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/drawable/ic_launcher_background.xml" value="0.24583333333333332" />
-        <entry key="..\:/Users/djeuf/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_interesse.xml" value="0.264" />
-        <entry key="..\:/Users/djeuf/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Users/djeuf/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_sing_up_screen.xml" value="0.25" />
-        <entry key="..\:/Users/djeuf/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_spalsh_screen.xml" value="0.2296875" />
-        <entry key="..\:/Users/djeuf/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_splash_screen.xml" value="0.2" />
+        <entry key="..\:/Users/djeuf/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_main.xml" value="0.2296875" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22685185185185186" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_dialog_fragment.xml" value="0.2" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_geschlecht.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_interesse.xml" value="0.176" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_login.xml" value="0.10552536231884058" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_login_screen.xml" value="0.2" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_main2.xml" value="0.264" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_resgister.xml" value="0.2" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_sing_up_screen.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_splash_screen.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_splash_screen2.xml" value="0.128" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_sport_screen.xml" value="0.18614130434782608" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/main_activity.xml" value="0.12183383991894631" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/main_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/sport.xml" value="0.2" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14427083333333332" />
       </map>
     </option>
   </component>

@@ -54,6 +54,9 @@ class SingUpScreen : AppCompatActivity() {
 
 
 
+
+
+
         Geschlecht.setOnClickListener {
             val builder=AlertDialog.Builder (this@SingUpScreen)
             val textsArrays= arrayOf(
@@ -79,10 +82,14 @@ class SingUpScreen : AppCompatActivity() {
             dialog.show()
         }
 
-
+        button2.setOnClickListener{
+            val intent=Intent(this, geschlecht::class.java)
+            startActivity(intent)
+        }
 
 
     }
+
 
 
 

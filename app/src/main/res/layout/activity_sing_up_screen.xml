@@ -62,8 +62,8 @@
         android:drawableLeft="@drawable/ic_action_pass"
         android:ems="10"
         android:hint="Passwort"
-        android:textColorHint="@color/black"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        android:textColorHint="@color/black" />
 
 
     <EditText
@@ -99,8 +99,8 @@
         android:layout_width="265dp"
         android:layout_height="45dp"
         android:layout_below="@id/stadt"
-        android:layout_centerInParent="true"
 
+        android:layout_centerInParent="true"
         android:layout_marginTop="40dp">
 
         <TextView
