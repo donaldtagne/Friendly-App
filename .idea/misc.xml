@@ -3,7 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/djeuf/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_main.xml" value="0.2296875" />
+        <entry key="..\:/Users/djeuf/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/drawable/buttonbg.xml" value="0.24583333333333332" />
+        <entry key="..\:/Users/djeuf/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/drawable/ic_baseline_geschlecht.xml" value="0.2703125" />
+        <entry key="..\:/Users/djeuf/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/drawable/ic_launcher_background.xml" value="0.24583333333333332" />
+        <entry key="..\:/Users/djeuf/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_interesse.xml" value="0.264" />
+        <entry key="..\:/Users/djeuf/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/djeuf/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_sing_up_screen.xml" value="0.25" />
+        <entry key="..\:/Users/djeuf/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_spalsh_screen.xml" value="0.2296875" />
+        <entry key="..\:/Users/djeuf/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_splash_screen.xml" value="0.2" />
       </map>
     </option>
   </component>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SingUpScreen"
+    android:background="#1E90FF"
+    >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="242dp"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="34dp"
+        android:text="Registrierung"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="35dp" />
+
+    <EditText
+        android:id="@+id/iduser"
+        android:layout_width="265dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:ems="10"
+        android:hint="Username"
+        android:textColorHint="@color/black"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/idmail"
+        android:layout_width="265dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/iduser"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:ems="10"
+        android:hint="E-Mail"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="265dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/idmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:ems="10"
+        android:hint="Passwort"
+        android:textColorHint="@color/black"
+        android:inputType="textPassword" />
+
+
+    <EditText
+        android:id="@+id/idpasswort"
+        android:layout_width="265dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/pass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:ems="10"
+        android:hint="Passwort Wiederholen"
+        android:inputType="textPassword"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/stadt"
+        android:layout_width="265dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/idpasswort"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/ic_action_stadt"
+        android:ems="10"
+        android:hint="Stadt"
+       android:textColorHint="@color/black"
+        android:inputType="textPersonName" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Geschlecht"
+        android:layout_width="265dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/stadt"
+        android:layout_centerInParent="true"
+
+        android:layout_marginTop="40dp">
+
+        <TextView
+
+            android:layout_width="176dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="6dp"
+            android:drawableLeft="@drawable/ic_baseline_transgender_24"
+            android:text="Geschlecht"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/Geschlecht"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        app:cardBackgroundColor="@color/black"
+        app:cardCornerRadius="25dp">
+
+        <TextView
+
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="6dp"
+            android:text="Weiter"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/button2"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/Geschlecht"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        app:cardBackgroundColor="@color/black"
+        app:cardCornerRadius="25dp">
+
+        <TextView
+
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="6dp"
+            android:text="Weiter"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

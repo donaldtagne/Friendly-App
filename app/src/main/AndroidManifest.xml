@@ -10,14 +10,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFirstApplication">
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".Interesse"
+            android:exported="true"
+            android:theme="@style/Theme.Interesse"/>
+
+        <activity
+            android:name=".SingUpScreen"
+            android:exported="true" />
+
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:theme="@style/Theme.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MainActivity" />
     </application>
 
 </manifest>
