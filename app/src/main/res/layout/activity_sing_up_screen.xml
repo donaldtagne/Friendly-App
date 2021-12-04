@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -10,142 +10,151 @@
 
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="242dp"
-        android:layout_height="49dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="85dp"
-        android:layout_marginTop="34dp"
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
         android:text="Registrierung"
-        android:textAlignment="center"
+        android:textSize="30dp"
+
         android:textColor="@color/black"
-        android:textSize="35dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_goneMarginLeft="80dp"
+        app:layout_goneMarginRight="80dp"/>
 
-    <EditText
-        android:id="@+id/iduser"
-        android:layout_width="265dp"
-        android:layout_height="45dp"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="25dp"
-        android:background="@color/white"
-        android:drawableLeft="@drawable/ic_action_user"
-        android:ems="10"
-        android:hint="Username"
-        android:textColorHint="@color/black"
-        android:inputType="textPersonName" />
-
-    <EditText
-        android:id="@+id/idmail"
-        android:layout_width="265dp"
-        android:layout_height="45dp"
-        android:layout_below="@+id/iduser"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="32dp"
-        android:background="@color/white"
-        android:drawableLeft="@drawable/ic_action_user"
-        android:ems="10"
-        android:hint="E-Mail"
-        android:inputType="textPersonName"
-        android:textColorHint="@color/black" />
-
-    <EditText
-        android:id="@+id/pass"
-        android:layout_width="265dp"
-        android:layout_height="45dp"
-        android:layout_below="@+id/idmail"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="32dp"
-        android:background="@color/white"
-        android:drawableLeft="@drawable/ic_action_pass"
-        android:ems="10"
-        android:hint="Passwort"
-        android:textColorHint="@color/black"
-        android:inputType="textPassword" />
-
-
-    <EditText
-        android:id="@+id/idpasswort"
-        android:layout_width="265dp"
-        android:layout_height="45dp"
-        android:layout_below="@+id/pass"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="32dp"
-        android:background="@color/white"
-        android:drawableLeft="@drawable/ic_action_pass"
-        android:ems="10"
-        android:hint="Passwort Wiederholen"
-        android:inputType="textPassword"
-        android:textColorHint="@color/black" />
-
-    <EditText
-        android:id="@+id/stadt"
-        android:layout_width="265dp"
-        android:layout_height="45dp"
-        android:layout_below="@+id/idpasswort"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="32dp"
-        android:background="@color/white"
-        android:drawableLeft="@drawable/ic_action_stadt"
-        android:ems="10"
-        android:hint="Stadt"
+   <com.google.android.material.textfield.TextInputLayout
+       android:id="@+id/tvUser"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="80dp"
+       android:layout_marginEnd="80dp"
+       android:hint="Username"
+       app:layout_constraintTop_toBottomOf="@id/register"
+       android:layout_marginTop="25dp"
        android:textColorHint="@color/black"
-        android:inputType="textPersonName" />
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/Geschlecht"
-        android:layout_width="265dp"
-        android:layout_height="45dp"
-        android:layout_below="@id/stadt"
-        android:layout_centerInParent="true"
-
-        android:layout_marginTop="40dp">
-
-        <TextView
-
-            android:layout_width="176dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="3dp"
-            android:layout_marginTop="6dp"
-            android:drawableLeft="@drawable/ic_baseline_transgender_24"
-            android:text="Geschlecht"
-            android:textColor="@color/black"
-            android:textSize="20dp" />
-    </androidx.cardview.widget.CardView>
+       >
+       <EditText
+           android:id="@+id/edUser"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+            android:drawableLeft="@drawable/ic_action_user"
+           android:textSize="18dp"
 
 
-    <androidx.cardview.widget.CardView
+            />
+    </com.google.android.material.textfield.TextInputLayout>
 
-        android:layout_width="140dp"
-        android:layout_height="50dp"
-        android:layout_below="@id/Geschlecht"
-        android:layout_centerInParent="true"
-        android:layout_marginTop="40dp"
-        app:cardBackgroundColor="@color/black"
-        app:cardCornerRadius="25dp">
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tvmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:hint="E-Mail"
+        app:layout_constraintTop_toBottomOf="@id/tvUser"
+        android:layout_marginTop="32dp"
+        android:textColorHint="@color/black"
 
-        <TextView
+        >
+        <EditText
+            android:id="@+id/edmail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/ic_action_email"
+            android:textSize="18dp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
 
-            android:layout_width="82dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="6dp"
-            android:text="Weiter"
-            android:textColor="@color/white"
-            android:textSize="25dp" />
-    </androidx.cardview.widget.CardView>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tvpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:hint="Passwort"
+
+        app:layout_constraintTop_toBottomOf="@id/tvmail"
+        android:layout_marginTop="32dp"
+        android:textColorHint="@color/black"
+        app:passwordToggleEnabled="true"
+
+
+        >
+
+        <EditText
+            android:id="@+id/edpass"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            android:drawableRight="@drawable/ic_action_eye"
+            android:inputType="textPassword"
+            android:textSize="18dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tvpw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:hint="Passwort wiederholen"
+        app:layout_constraintTop_toBottomOf="@id/tvpass"
+        app:passwordToggleEnabled="true"
+        android:layout_marginTop="32dp"
+
+        android:textColorHint="@color/black"
+
+        >
+        <EditText
+            android:id="@+id/edpw"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:inputType="textPassword"
+            android:drawableRight="@drawable/ic_action_eye"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tvstadt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:hint="Stadt"
+        app:layout_constraintTop_toBottomOf="@id/tvpw"
+        android:layout_marginTop="32dp"
+        android:textColorHint="@color/black"
+
+        >
+        <EditText
+            android:id="@+id/edstadt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/ic_action_stadt"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
 
     <androidx.cardview.widget.CardView
         android:id="@+id/button2"
         android:layout_width="140dp"
         android:layout_height="50dp"
-        android:layout_below="@id/Geschlecht"
         android:layout_centerInParent="true"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="32dp"
         app:cardBackgroundColor="@color/black"
-        app:cardCornerRadius="25dp">
+        app:cardCornerRadius="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvstadt"
+        android:layout_marginBottom="20dp">
 
         <TextView
 
@@ -159,4 +168,4 @@
     </androidx.cardview.widget.CardView>
 
 
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

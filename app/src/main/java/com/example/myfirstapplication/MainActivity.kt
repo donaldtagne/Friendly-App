@@ -1,5 +1,7 @@
 package com.example.myfirstapplication
 
+
+
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -48,20 +50,21 @@ class MainActivity : AppCompatActivity() {
 
         })
 
+        passwordfocuslistener()
+        binding.Anmelden.setOnClickListener { submitForm() }
 
         Registrieren.setOnClickListener {
             val intent = Intent(this, SingUpScreen::class.java);
             startActivity(intent);
         }
 
-         passwordfocuslistener()
-        binding.Anmelden.setOnClickListener { submitForm() }
 
         }
 
 
     private fun submitForm(){
         binding.tvPassword.helperText = validPassword()
+
 
         val validPassword = binding.tvPassword.helperText == null
 
@@ -149,4 +152,4 @@ class MainActivity : AppCompatActivity() {
 
 
     }
-    // first comment just for a test
+
