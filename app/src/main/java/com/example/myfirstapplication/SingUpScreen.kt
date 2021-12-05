@@ -49,30 +49,7 @@ class SingUpScreen : AppCompatActivity() {
         })
 
 
-      /* Geschlecht.setOnClickListener {
-            val builder=AlertDialog.Builder (this@SingUpScreen)
-            val textsArrays= arrayOf(
-                "Männlich",
-                "Weiblich",
-            )
 
-            val checkedtextsArray = booleanArrayOf(false, false)
-
-            val textsList = Arrays.asList(*textsArrays)
-            builder.setTitle("Geschlecht")
-
-            builder.setMultiChoiceItems(textsArrays, checkedtextsArray) {dialog,which, isCHecked->
-                checkedtextsArray[which]=isCHecked
-                val currentItem = textsArrays[which]
-                Toast.makeText(applicationContext, currentItem+" "+ isCHecked, Toast.LENGTH_SHORT).show()
-
-            }
-            builder.setPositiveButton("OK"){dialog,which->
-
-            }
-            val dialog= builder.create()
-            dialog.show()
-        } */
 
 
 
