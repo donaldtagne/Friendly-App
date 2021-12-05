@@ -37,6 +37,8 @@ class SingUpScreen : AppCompatActivity() {
                 if(android.util.Patterns.EMAIL_ADDRESS.matcher(edmail.text.toString()).matches()) {
                     button2.isEnabled = true
 
+
+
                 }
 
                 else{
@@ -47,8 +49,6 @@ class SingUpScreen : AppCompatActivity() {
             }
 
         })
-
-
 
 
 
@@ -64,7 +64,7 @@ class SingUpScreen : AppCompatActivity() {
 
         if(validPassword){
 
-            val intent = Intent(this, SingUpScreen::class.java);
+            val intent = Intent(this, geschlecht::class.java);
             startActivity(intent);
 
             resetForm()
