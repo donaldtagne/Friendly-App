@@ -3,6 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/biote/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/drawable/icon_activity.xml" value="0.1" />
+        <entry key="..\:/Users/biote/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/drawable/icon_camera.xml" value="0.43854166666666666" />
+        <entry key="..\:/Users/biote/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/drawable/svchat_backround.xml" value="0.29583333333333334" />
+        <entry key="..\:/Users/biote/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_home_screeen.xml" value="0.21920289855072464" />
+        <entry key="..\:/Users/biote/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_identity_verification_screen.xml" value="0.25" />
+        <entry key="..\:/Users/biote/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_main.xml" value="0.21920289855072464" />
+        <entry key="..\:/Users/biote/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/fragment_activity.xml" value="0.21920289855072464" />
+        <entry key="..\:/Users/biote/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/fragment_chat.xml" value="0.335" />
+        <entry key="..\:/Users/biote/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/fragment_friends.xml" value="0.21920289855072464" />
+        <entry key="..\:/Users/biote/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/fragment_home.xml" value="0.21920289855072464" />
+        <entry key="..\:/Users/biote/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/item_chat.xml" value="0.4234375" />
+        <entry key="..\:/Users/biote/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/menu/menu.xml" value="0.2796875" />
         <entry key="..\:/Users/djeuf/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_main.xml" value="0.2296875" />
       </map>
     </option>
