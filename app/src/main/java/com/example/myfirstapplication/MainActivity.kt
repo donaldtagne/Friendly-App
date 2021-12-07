@@ -70,7 +70,7 @@ class MainActivity : AppCompatActivity() {
 
         if(validPassword){
 
-                val intent = Intent(this, SingUpScreen::class.java);
+                val intent = Intent(this, Interesse::class.java);
                 startActivity(intent);
 
             resetForm()

@@ -19,7 +19,8 @@
             android:theme="@style/Theme.Interesse" />
         <activity
             android:name=".SingUpScreen"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.sing_up"/>
         <activity
             android:name=".SplashScreen"
             android:exported="true"
