@@ -74,7 +74,7 @@ class MainActivity : AppCompatActivity() {
 
         if(validPassword){
 
-                val intent = Intent(this, Interesse::class.java);
+                val intent = Intent(this, HomeScreen::class.java);
                 startActivity(intent);
 
             resetForm()

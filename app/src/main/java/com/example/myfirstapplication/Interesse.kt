@@ -1,5 +1,6 @@
 package com.example.myfirstapplication
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -110,12 +111,12 @@ class Interesse : AppCompatActivity() {
         tvLuft.setOnClickListener {
             val builder=AlertDialog.Builder (this@Interesse)
             val textsArrays= arrayOf(
-                "Segeflug",
+                "Segelflug",
                 "Motorflug",
                 "Ultraleicht",
                 "Fallschirm",
                 "Drachenfliegen",
-                "Ballon",
+                "Ballonflug",
                 "Modellflug"
             )
 
@@ -234,6 +235,10 @@ class Interesse : AppCompatActivity() {
             }
             val dialog= builder.create()
             dialog.show()
+        }
+        tvSpeichern.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
         }
 
     }

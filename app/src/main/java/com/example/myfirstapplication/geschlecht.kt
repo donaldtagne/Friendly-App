@@ -41,9 +41,10 @@ class geschlecht : AppCompatActivity() {
             val textsArrays= arrayOf(
                 "Männlich",
                 "Weiblich",
+                "Divers"
             )
 
-            val checkedtextsArray = booleanArrayOf(false, false)
+            val checkedtextsArray = booleanArrayOf(false, false, false)
 
             val textsList = Arrays.asList(*textsArrays)
             builder.setTitle("Geschlecht")
