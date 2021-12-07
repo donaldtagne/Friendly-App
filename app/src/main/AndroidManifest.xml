@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.myfirstapplication">
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -10,9 +11,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFirstApplication">
         <activity
+            android:name=".forget_pass"
+            android:exported="true"
+            android:theme="@style/Theme.forget_pass"/>
+        <activity
             android:name=".geschlecht"
             android:exported="true"
-            android:theme="@style/Theme.Geschlecht"/>
+            android:theme="@style/Theme.geschlecht" />
         <activity
             android:name=".Interesse"
             android:exported="true"

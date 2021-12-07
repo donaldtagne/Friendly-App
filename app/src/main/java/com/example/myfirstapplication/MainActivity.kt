@@ -57,9 +57,13 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, SingUpScreen::class.java);
             startActivity(intent);
         }
-
-
+        pw.setOnClickListener{
+            val intent= Intent(this, forget_pass::class.java)
+            startActivity(intent)
         }
+
+
+    }
 
 
     private fun submitForm(){
@@ -70,7 +74,7 @@ class MainActivity : AppCompatActivity() {
 
         if(validPassword){
 
-                val intent = Intent(this, SingUpScreen::class.java);
+                val intent = Intent(this, Interesse::class.java);
                 startActivity(intent);
 
             resetForm()
@@ -131,7 +135,6 @@ class MainActivity : AppCompatActivity() {
         }
         return null
     }
-
 
 
 
