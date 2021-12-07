@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SingUpScreen"
+    android:background="#1E90FF"
+    >
+
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="Registrierung"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_goneMarginLeft="80dp"
+        app:layout_goneMarginRight="80dp"/>
+
+   <com.google.android.material.textfield.TextInputLayout
+       android:id="@+id/tvUser"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="80dp"
+       android:layout_marginEnd="80dp"
+       android:hint="Username"
+       app:layout_constraintTop_toBottomOf="@id/register"
+       android:layout_marginTop="25dp"
+       android:textColorHint="@color/black"
+
+       >
+       <EditText
+           android:id="@+id/edUser"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+            android:drawableLeft="@drawable/ic_action_user"
+           android:textSize="18dp"
+
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tvmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:hint="E-Mail"
+        app:layout_constraintTop_toBottomOf="@id/tvUser"
+        android:layout_marginTop="32dp"
+        android:textColorHint="@color/black"
+
+        >
+        <EditText
+            android:id="@+id/edmail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/ic_action_email"
+            android:textSize="18dp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tvpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:hint="Passwort"
+
+        app:layout_constraintTop_toBottomOf="@id/tvmail"
+        android:layout_marginTop="32dp"
+        android:textColorHint="@color/black"
+        app:passwordToggleEnabled="true"
+
+
+        >
+
+        <EditText
+            android:id="@+id/edpass"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            android:drawableRight="@drawable/ic_action_eye"
+            android:inputType="textPassword"
+            android:textSize="18dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tvpw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:hint="Passwort wiederholen"
+        app:layout_constraintTop_toBottomOf="@id/tvpass"
+        app:passwordToggleEnabled="true"
+        android:layout_marginTop="32dp"
+
+        android:textColorHint="@color/black"
+
+        >
+        <EditText
+            android:id="@+id/edpw"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:inputType="textPassword"
+            android:drawableRight="@drawable/ic_action_eye"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tvstadt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:hint="Stadt"
+        app:layout_constraintTop_toBottomOf="@id/tvpw"
+        android:layout_marginTop="32dp"
+        android:textColorHint="@color/black"
+
+        >
+        <EditText
+            android:id="@+id/edstadt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/ic_action_stadt"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/button2"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="32dp"
+        app:cardBackgroundColor="@color/black"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvstadt"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="6dp"
+            android:text="Weiter"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

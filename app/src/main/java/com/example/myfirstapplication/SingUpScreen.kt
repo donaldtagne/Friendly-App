@@ -1,7 +1,5 @@
 package com.example.myfirstapplication
 
-
-
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -11,21 +9,22 @@ import android.view.View
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
-import com.example.myfirstapplication.databinding.ActivityMainBinding
+import com.example.myfirstapplication.databinding.ActivitySingUpScreenBinding
+import kotlinx.android.synthetic.main.activity_interesse.*
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_sing_up_screen.*
+import java.util.*
 
 
-class MainActivity : AppCompatActivity() {
-
-    private lateinit var binding: ActivityMainBinding
+class SingUpScreen : AppCompatActivity() {
+    private lateinit var binding : ActivitySingUpScreenBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = ActivitySingUpScreenBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-
-        edEmail.addTextChangedListener(object:TextWatcher
+        edmail.addTextChangedListener(object: TextWatcher
         {
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
 
@@ -35,47 +34,38 @@ class MainActivity : AppCompatActivity() {
             }
 
             override fun afterTextChanged(s: Editable?) {
-                if(android.util.Patterns.EMAIL_ADDRESS.matcher(edEmail.text.toString()).matches()) {
-                    Anmelden.isEnabled = true
+                if(android.util.Patterns.EMAIL_ADDRESS.matcher(edmail.text.toString()).matches()) {
+                    button2.isEnabled = true
+
 
 
                 }
 
                 else{
-                    Anmelden.isEnabled = false
-                    edEmail.setError("Invalid Email")
+                    button2.isEnabled = false
+                    edmail.setError("Invalid Email")
                 }
 
             }
 
         })
 
+
+
+
         passwordfocuslistener()
-        binding.Anmelden.setOnClickListener { submitForm() }
-
-        Registrieren.setOnClickListener {
-            val intent = Intent(this, SingUpScreen::class.java);
-            startActivity(intent);
-        }
-        pw.setOnClickListener{
-            val intent= Intent(this, forget_pass::class.java)
-            startActivity(intent)
-        }
-
-
+        binding.button2.setOnClickListener { submitForm() }
     }
-
-
     private fun submitForm(){
-        binding.tvPassword.helperText = validPassword()
+        binding.tvpass.helperText = validPassword()
 
 
-        val validPassword = binding.tvPassword.helperText == null
+        val validPassword = binding.tvpass.helperText == null
 
         if(validPassword){
 
-                val intent = Intent(this, Interesse::class.java);
-                startActivity(intent);
+            val intent = Intent(this, geschlecht::class.java);
+            startActivity(intent);
 
             resetForm()
 
@@ -87,8 +77,8 @@ class MainActivity : AppCompatActivity() {
 
     private fun invalidForm() {
         var message = ""
-        if(binding.tvPassword.helperText != null)
-            message += "\n\nPasswort: " + binding.tvPassword.helperText
+        if(binding.tvpass.helperText != null)
+            message += "\n\nPasswort: " + binding.tvpass.helperText
 
         AlertDialog.Builder(this)
             .setTitle("Invalid Form")
@@ -102,23 +92,23 @@ class MainActivity : AppCompatActivity() {
 
     private fun resetForm() {
 
-        binding.edPassword.text = null
+        binding.edpass.text = null
 
 
     }
 
     private fun passwordfocuslistener(){
-        binding.edPassword.setOnFocusChangeListener { _, hasFocus ->
+        binding.edpass.setOnFocusChangeListener { _, hasFocus ->
             if (!hasFocus)
             {
-                binding.tvPassword.helperText = validPassword()
+                binding.tvpass.helperText = validPassword()
             }
 
         }
     }
     private fun validPassword(): String?
     {
-        val passwordText = binding.edPassword.text.toString()
+        val passwordText = binding.edpass.text.toString()
         if(passwordText.length < 8)
         {
             return "Minimum 8 Character Password"
@@ -144,5 +134,6 @@ class MainActivity : AppCompatActivity() {
 
 
 
-    }
 
+
+}
