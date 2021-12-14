@@ -51,8 +51,8 @@ class geschlecht : AppCompatActivity() {
 
             builder.setMultiChoiceItems(textsArrays, checkedtextsArray) {dialog,which, isCHecked->
                 checkedtextsArray[which]=isCHecked
-                val currentItem = textsArrays[which]
-                Toast.makeText(applicationContext, currentItem+" "+ isCHecked, Toast.LENGTH_SHORT).show()
+                /*val currentItem = textsArrays[which]
+                Toast.makeText(applicationContext, currentItem+" "+ isCHecked, Toast.LENGTH_SHORT).show()*/
 
             }
             builder.setPositiveButton("OK"){dialog,which->

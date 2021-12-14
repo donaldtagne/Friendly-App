@@ -31,8 +31,8 @@ class Interesse : AppCompatActivity() {
 
             builder.setMultiChoiceItems(textsArrays, checkedtextsArray) {dialog,which, isCHecked->
                 checkedtextsArray[which]=isCHecked
-                val currentItem = textsArrays[which]
-                Toast.makeText(applicationContext, currentItem+" "+ isCHecked, Toast.LENGTH_SHORT).show()
+                /*val currentItem = textsArrays[which]
+                Toast.makeText(applicationContext, currentItem+" "+ isCHecked, Toast.LENGTH_SHORT).show()*/
 
             }
             builder.setPositiveButton("OK"){dialog,which->
@@ -63,8 +63,9 @@ class Interesse : AppCompatActivity() {
 
             builder.setMultiChoiceItems(textsArrays, checkedtextsArray) {dialog,which, isCHecked->
                 checkedtextsArray[which]=isCHecked
-                val currentItem = textsArrays[which]
-                Toast.makeText(applicationContext, currentItem+" "+ isCHecked, Toast.LENGTH_SHORT).show()
+                /*val currentItem = textsArrays[which]
+                Toast.makeText(applicationContext, currentItem+" "+ isCHecked, Toast.LENGTH_SHORT).show()*/
+
 
             }
             builder.setPositiveButton("OK"){dialog,which->
@@ -95,8 +96,9 @@ class Interesse : AppCompatActivity() {
 
             builder.setMultiChoiceItems(textsArrays, checkedtextsArray) {dialog,which, isCHecked->
                 checkedtextsArray[which]=isCHecked
-                val currentItem = textsArrays[which]
-                Toast.makeText(applicationContext, currentItem+" "+ isCHecked, Toast.LENGTH_SHORT).show()
+                /*val currentItem = textsArrays[which]
+                Toast.makeText(applicationContext, currentItem+" "+ isCHecked, Toast.LENGTH_SHORT).show()*/
+
 
             }
             builder.setPositiveButton("OK"){dialog,which->
@@ -127,8 +129,8 @@ class Interesse : AppCompatActivity() {
 
             builder.setMultiChoiceItems(textsArrays, checkedtextsArray) {dialog,which, isCHecked->
                 checkedtextsArray[which]=isCHecked
-                val currentItem = textsArrays[which]
-                Toast.makeText(applicationContext, currentItem+" "+ isCHecked, Toast.LENGTH_SHORT).show()
+                /*val currentItem = textsArrays[which]
+                 Toast.makeText(applicationContext, currentItem+" "+ isCHecked, Toast.LENGTH_SHORT).show()*/
 
             }
             builder.setPositiveButton("OK"){dialog,which->
@@ -159,8 +161,8 @@ class Interesse : AppCompatActivity() {
 
             builder.setMultiChoiceItems(textsArrays, checkedtextsArray) {dialog,which, isCHecked->
                 checkedtextsArray[which]=isCHecked
-                val currentItem = textsArrays[which]
-                Toast.makeText(applicationContext, currentItem+" "+ isCHecked, Toast.LENGTH_SHORT).show()
+                /*val currentItem = textsArrays[which]
+                 Toast.makeText(applicationContext, currentItem+" "+ isCHecked, Toast.LENGTH_SHORT).show()*/
 
             }
             builder.setPositiveButton("OK"){dialog,which->
@@ -191,8 +193,9 @@ class Interesse : AppCompatActivity() {
 
             builder.setMultiChoiceItems(textsArrays, checkedtextsArray) {dialog,which, isCHecked->
                 checkedtextsArray[which]=isCHecked
-                val currentItem = textsArrays[which]
-                Toast.makeText(applicationContext, currentItem+" "+ isCHecked, Toast.LENGTH_SHORT).show()
+                /*val currentItem = textsArrays[which]
+                 Toast.makeText(applicationContext, currentItem+" "+ isCHecked, Toast.LENGTH_SHORT).show()*/
+
 
             }
             builder.setPositiveButton("OK"){dialog,which->
@@ -223,8 +226,8 @@ class Interesse : AppCompatActivity() {
 
             builder.setMultiChoiceItems(textsArrays, checkedtextsArray) {dialog,which, isCHecked->
                 checkedtextsArray[which]=isCHecked
-                val currentItem = textsArrays[which]
-                Toast.makeText(applicationContext, currentItem+" "+ isCHecked, Toast.LENGTH_SHORT).show()
+                /*val currentItem = textsArrays[which]
+                Toast.makeText(applicationContext, currentItem+" "+ isCHecked, Toast.LENGTH_SHORT).show()*/
 
             }
             builder.setPositiveButton("OK"){dialog,which->
@@ -237,7 +240,7 @@ class Interesse : AppCompatActivity() {
             dialog.show()
         }
         tvSpeichern.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, IdentityVerificationScreen::class.java)
             startActivity(intent)
         }
 
