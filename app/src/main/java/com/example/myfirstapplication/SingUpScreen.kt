@@ -13,8 +13,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import com.example.myfirstapplication.databinding.ActivitySingUpScreenBinding
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.ktx.auth
-import com.google.firebase.ktx.Firebase
+
 import kotlinx.android.synthetic.main.activity_interesse.*
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_sing_up_screen.*
