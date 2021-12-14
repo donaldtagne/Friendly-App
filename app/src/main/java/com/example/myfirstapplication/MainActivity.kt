@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
 
 
 
-        edEmail.addTextChangedListener(object:TextWatcher
+        binding.edEmail.addTextChangedListener(object:TextWatcher
         {
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
 
@@ -45,14 +45,14 @@ class MainActivity : AppCompatActivity() {
 
             override fun afterTextChanged(s: Editable?) {
                 if(android.util.Patterns.EMAIL_ADDRESS.matcher(edEmail.text.toString()).matches()) {
-                    Anmelden.isEnabled = true
+                    binding.Anmelden.isEnabled = true
 
 
                 }
 
                 else{
-                    Anmelden.isEnabled = false
-                    edEmail.setError("Invalid Email")
+                    binding.Anmelden.isEnabled = false
+                    binding.edEmail.setError("Invalid Email")
                 }
 
             }
@@ -62,11 +62,11 @@ class MainActivity : AppCompatActivity() {
         passwordfocuslistener()
         binding.Anmelden.setOnClickListener { submitForm() }
 
-        Registrieren.setOnClickListener {
+        binding.Registrieren.setOnClickListener {
             val intent = Intent(this, SingUpScreen::class.java);
             startActivity(intent);
         }
-        pw.setOnClickListener{
+        binding.pw.setOnClickListener{
             val intent= Intent(this, forget_pass::class.java)
             startActivity(intent)
         }
