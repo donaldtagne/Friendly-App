@@ -50,7 +50,7 @@ class SingUpScreen : AppCompatActivity() {
 
                 else{
                     button2.isEnabled = false
-                    edmail.setError("Invalid Email")
+                    edmail.setError("Invalid Emaill")
                 }
 
             }
