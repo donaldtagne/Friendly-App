@@ -23,27 +23,23 @@
 
          />
 
+
     <TextView
         android:id="@+id/Registrieren"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Kein Konto ? Hier registrieren"
-        app:layout_constraintTop_toBottomOf="@id/Anmelden"
         android:layout_marginStart="80dp"
+        android:layout_marginTop="2dp"
         android:layout_marginEnd="80dp"
-        android:textSize="15dp"
         android:layout_marginBottom="35dp"
+        android:text="Kein Konto ? Hier registrieren"
         android:textColor="@color/black"
-
-
-
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
-
-
-        />
-
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/check"
+         />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tvEmail"
@@ -52,8 +48,6 @@
         android:layout_marginStart="80dp"
         android:layout_marginEnd="80dp"
         android:hint="E-Mail"
-
-
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -95,7 +89,8 @@
             android:layout_height="match_parent"
             android:hint="Password"
             android:inputType="textPassword"
-            android:drawableLeft="@drawable/ic_action_pass"/>
+            android:drawableLeft="@drawable/ic_action_pass"
+            />
 
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -128,12 +123,26 @@
         android:id="@+id/pw"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="4dp"
         android:text="Password vergessen"
         android:textColor="@color/black"
         android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.678"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvPassword" />
+
+    <CheckBox
+        android:id="@+id/check"
+        android:layout_width="154dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Remember me"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Anmelden"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
 
