@@ -9,7 +9,11 @@ import android.view.View
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
+import androidx.cardview.widget.CardView
 import com.example.myfirstapplication.databinding.ActivitySingUpScreenBinding
+import com.google.android.material.textfield.TextInputEditText
+import com.google.android.material.textfield.TextInputLayout
+import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_interesse.*
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_sing_up_screen.*
@@ -20,10 +24,10 @@ class SingUpScreen : AppCompatActivity() {
     private lateinit var binding : ActivitySingUpScreenBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
         binding = ActivitySingUpScreenBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
         edmail.addTextChangedListener(object: TextWatcher
         {
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
