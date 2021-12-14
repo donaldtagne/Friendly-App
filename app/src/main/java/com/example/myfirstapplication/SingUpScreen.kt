@@ -1,19 +1,20 @@
 package com.example.myfirstapplication
 
+import android.content.ContentValues.TAG
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
+import android.util.Log
 import android.view.View
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
-import androidx.cardview.widget.CardView
 import com.example.myfirstapplication.databinding.ActivitySingUpScreenBinding
-import com.google.android.material.textfield.TextInputEditText
-import com.google.android.material.textfield.TextInputLayout
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 import kotlinx.android.synthetic.main.activity_interesse.*
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_sing_up_screen.*
@@ -22,12 +23,14 @@ import java.util.*
 
 class SingUpScreen : AppCompatActivity() {
     private lateinit var binding : ActivitySingUpScreenBinding
-
+    private lateinit var auth: FirebaseAuth
     override fun onCreate(savedInstanceState: Bundle?) {
-
         super.onCreate(savedInstanceState)
         binding = ActivitySingUpScreenBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        // Initialize Firebase Auth
+        auth = FirebaseAuth.getInstance()
+
         edmail.addTextChangedListener(object: TextWatcher
         {
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
@@ -47,7 +50,7 @@ class SingUpScreen : AppCompatActivity() {
 
                 else{
                     button2.isEnabled = false
-                    edmail.setError("Invalid Email")
+                    edmail.setError("Invalid Emaill")
                 }
 
             }
@@ -58,8 +61,37 @@ class SingUpScreen : AppCompatActivity() {
 
 
         passwordfocuslistener()
-        binding.button2.setOnClickListener { submitForm() }
+        binding.button2.setOnClickListener {
+
+            auth.createUserWithEmailAndPassword( edmail.text.toString(), edpass.text.toString())
+                .addOnCompleteListener(this) { task ->
+                    if (task.isSuccessful) {
+                        // Sign in success, update UI with the signed-in user's information
+                        Log.d(TAG, "createUserWithEmail:success")
+                        Toast.makeText(baseContext, "Authentication succes.",
+                            Toast.LENGTH_SHORT).show()
+                        // val user = auth.currentUser
+                        // updateUI(user)
+                    } else {
+                        // If sign in fails, display a message to the user.
+                        Log.w(TAG, "createUserWithEmail:failure", task.exception)
+                        Toast.makeText(baseContext, "Authentication failed.",
+                            Toast.LENGTH_SHORT).show()
+                        //  updateUI(null)
+                    }
+
+                }
+            submitForm()
+
+
+
+
+        }
     }
+
+
+
+
     private fun submitForm(){
         binding.tvpass.helperText = validPassword()
 
