@@ -13,8 +13,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import com.example.myfirstapplication.databinding.ActivitySingUpScreenBinding
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.ktx.auth
-import com.google.firebase.ktx.Firebase
+
 import kotlinx.android.synthetic.main.activity_interesse.*
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_sing_up_screen.*
@@ -150,13 +149,13 @@ class SingUpScreen : AppCompatActivity() {
             return "Minimum 8 Character Password"
         }
 
-        if(!passwordText.matches(".*[A-Z].*".toRegex())){//
+        if(!passwordText.matches(".[A-Z].".toRegex())){//
             return "Muss 1 Großbuchstabe haben "
         }
-        if(!passwordText.matches(".*[a-z].*".toRegex())){//
+        if(!passwordText.matches(".[a-z].".toRegex())){//
             return "Muss 1 Kleinbuchstabe haben "
         }
-        if(!passwordText.matches(".*[@#\$+=].*".toRegex())){//
+        if(!passwordText.matches(".[@#\$+=].".toRegex())){//
             return "Muss 1 Sonderzeichen haben "
         }
         return null
