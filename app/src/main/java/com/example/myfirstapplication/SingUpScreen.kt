@@ -111,52 +111,52 @@ class SingUpScreen : AppCompatActivity() {
 
 
 
-        /* edgeschlecht.setOnClickListener {
+           /* edgeschlecht.setOnClickListener {
 
-         val builder= AlertDialog.Builder (this@SingUpScreen)
-         val textsArrays= arrayOf(
-             "Männlich",
-             "Weiblich",
-             "Divers"
-         )
-
-
-         val checkedtextsArray = booleanArrayOf(false, false, false)
-
-         val textsList = Arrays.asList(*textsArrays)
-         builder.setTitle("Geschlecht")
-
-         builder.setMultiChoiceItems(textsArrays, checkedtextsArray) {dialog,which, isCHecked->
-             checkedtextsArray[which]=isCHecked
-             /*val currentItem = textsArrays[which]
-             Toast.makeText(applicationContext, currentItem+" "+ isCHecked, Toast.LENGTH_SHORT).show()*/
-
-             if (checkedtextsArray == booleanArrayOf(true, false,false)){
-
-                 binding.edgeschlecht.setText("Männlich")
-             }
-             else if (checkedtextsArray == booleanArrayOf(false, true,false)){
-
-                 binding.edgeschlecht.setText("Weiblich")
-             }
-             else{
-                 binding.edgeschlecht.setText("Divers")
-             }
-
-         }
-         builder.setPositiveButton("OK"){dialog,which->
+            val builder= AlertDialog.Builder (this@SingUpScreen)
+            val textsArrays= arrayOf(
+                "Männlich",
+                "Weiblich",
+                "Divers"
+            )
 
 
-         }
-         val dialog= builder.create()
-         dialog.show()
+            val checkedtextsArray = booleanArrayOf(false, false, false)
+
+            val textsList = Arrays.asList(*textsArrays)
+            builder.setTitle("Geschlecht")
+
+            builder.setMultiChoiceItems(textsArrays, checkedtextsArray) {dialog,which, isCHecked->
+                checkedtextsArray[which]=isCHecked
+                /*val currentItem = textsArrays[which]
+                Toast.makeText(applicationContext, currentItem+" "+ isCHecked, Toast.LENGTH_SHORT).show()*/
+
+                if (checkedtextsArray == booleanArrayOf(true, false,false)){
+
+                    binding.edgeschlecht.setText("Männlich")
+                }
+                else if (checkedtextsArray == booleanArrayOf(false, true,false)){
+
+                    binding.edgeschlecht.setText("Weiblich")
+                }
+                else{
+                    binding.edgeschlecht.setText("Divers")
+                }
+
+            }
+            builder.setPositiveButton("OK"){dialog,which->
 
 
-     } */
+            }
+            val dialog= builder.create()
+            dialog.show()
+
+
+        } */
 
 
 
-    }
+        }
 
 
 
@@ -260,7 +260,7 @@ class SingUpScreen : AppCompatActivity() {
         if(!passworrtext.matches(".*[A-Z].*".toRegex())){
             return "Must contain 1 Upper-case Character"
         }
-        if(!passworrtext.matches(".*[a-z].*".toRegex())){
+        if(!passworrtext.matches(".*[a-z]*".toRegex())){
 
             return "Must contain 1 lower-case Character"
         }
@@ -276,7 +276,7 @@ class SingUpScreen : AppCompatActivity() {
 
 
 
-}
+    }
 
 
 
@@ -284,4 +284,17 @@ class SingUpScreen : AppCompatActivity() {
 
 
 
-/**/
+    /**/
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -19,6 +19,7 @@ import java.util.*
 class geschlecht : AppCompatActivity() {
     private lateinit var  tvDatePicker: TextView
     private lateinit var btnDatePicker: CardView
+    private lateinit var btnGePicker: CardView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_geschlecht)
@@ -28,6 +29,7 @@ class geschlecht : AppCompatActivity() {
         }
         tvDatePicker=findViewById(R.id.eddate)
         btnDatePicker= findViewById(R.id.btnDatePicker)
+        btnGePicker= findViewById(R.id.eGeschlecht)
         val mycalendar= Calendar.getInstance()
         val datePicker=DatePickerDialog.OnDateSetListener{view, year, month, dayOfMonth ->
             mycalendar.set(Calendar.YEAR, year)
@@ -55,17 +57,22 @@ class geschlecht : AppCompatActivity() {
                 Toast.makeText(applicationContext, currentItem+" "+ isCHecked, Toast.LENGTH_SHORT).show()*/
 
             }
-            builder.setPositiveButton("OK"){dialog,which->
+            builder.setPositiveButton("OK") { dialog, which ->
 
             }
+
             val dialog= builder.create()
             dialog.show()
+
         }
 
         btnDatePicker.setOnClickListener{
             DatePickerDialog(this,datePicker,mycalendar.get(Calendar.YEAR),mycalendar.get(Calendar.MONTH),
             mycalendar.get(Calendar.DAY_OF_MONTH)).show()
         }
+    }
+    private fun geschlechtable(){
+
     }
     private fun updateLable(mycalendar:Calendar){
             val myFormat="dd-MM-yyyy"

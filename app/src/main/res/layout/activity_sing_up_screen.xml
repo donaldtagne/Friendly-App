@@ -23,29 +23,29 @@
         app:layout_goneMarginLeft="80dp"
         app:layout_goneMarginRight="80dp"/>
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/tvUser"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="35dp"
-        android:layout_marginEnd="35dp"
-        android:hint="Username"
-        app:layout_constraintTop_toBottomOf="@id/register"
-        android:layout_marginTop="15dp"
-        android:textColorHint="@color/black"
+   <com.google.android.material.textfield.TextInputLayout
+       android:id="@+id/tvUser"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="35dp"
+       android:layout_marginEnd="35dp"
+       android:hint="Username"
+       app:layout_constraintTop_toBottomOf="@id/register"
+       android:layout_marginTop="15dp"
+       android:textColorHint="@color/black"
 
-        >
+       >
 
-        <EditText
-            android:id="@+id/edUser"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:drawableLeft="@drawable/ic_action_user"
-            android:textSize="18dp"
+       <EditText
+           android:id="@+id/edUser"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:drawableLeft="@drawable/ic_action_user"
+           android:textSize="18dp"
 
 
-            />
-    </com.google.android.material.textfield.TextInputLayout>
+           />
+   </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tvmail"
