@@ -1,60 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.myfirstapplication">
+
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="My first Application"
+        android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFirstApplication">
+        <activity
+            android:name=".IdentityVerificationScreen"
+            android:exported="true">
 
+        </activity>
         <activity
             android:name=".HomeScreen"
             android:exported="true">
 
         </activity>
         <activity
-            android:name=".IdentityVerificationScreen"
-            android:exported="true" >
-
+            android:name=".SingUpScreen"
+            android:exported="true">
 
         </activity>
-
-        <activity
-            android:name=".geschlecht"
-            android:exported="true"
-            android:theme="@style/Theme.Geschlecht"/>
-
         <activity
             android:name=".forget_pass"
-            android:exported="true"
-            android:theme="@style/Theme.forget_pass"/>
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".geschlecht"
+            android:exported="true">
+
+        </activity>
         <activity
             android:name=".Interesse"
-            android:exported="true"
-            android:theme="@style/Theme.Interesse" />
-        <activity
-            android:name=".SingUpScreen"
-            android:exported="true"
-            android:theme="@style/Theme.sing_up"/>
+            android:exported="true">
+
+        </activity>
         <activity
             android:name=".SplashScreen"
-            android:exported="true"
-            android:theme="@style/Theme.SplashScreen">
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true"
-            android:theme="@style/Theme.MainActivity" />
+            android:exported="true">
+
+        </activity>
     </application>
 
 </manifest>
