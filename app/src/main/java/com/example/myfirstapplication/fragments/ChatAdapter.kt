@@ -28,4 +28,5 @@ class ChatAdapter(
     override fun getItemCount(): Int {
         return chats.size
     }
+
 }
