@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Privacy"
+    android:background="#1E90FF">
+
+    <TextView
+        android:id="@+id/privacy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Privacy"
+        android:textSize="35dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="60dp"
+
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/tvonline"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="50dp"
+        app:cardBackgroundColor="@color/black"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/privacy">
+
+        <TextView
+            android:id="@+id/edonline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="6dp"
+            android:text="zuletzt Online"
+            android:textColor="@color/white"
+            android:textSize="27dp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/tvprofil"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="30dp"
+        app:cardBackgroundColor="@color/black"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvonline">
+
+        <TextView
+            android:id="@+id/edprofil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="6dp"
+            android:text="Profilbild"
+            android:textColor="@color/white"
+            android:textSize="27dp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/tvinfo"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="30dp"
+        app:cardBackgroundColor="@color/black"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvprofil">
+
+        <TextView
+            android:id="@+id/edinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="6dp"
+            android:text="Information"
+            android:textColor="@color/white"
+            android:textSize="27dp" />
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/tvblockiert"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="30dp"
+        app:cardBackgroundColor="@color/black"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvinfo">
+
+        <TextView
+            android:id="@+id/edblockiert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="6dp"
+            android:text="Blockiert"
+            android:textColor="@color/white"
+            android:textSize="27dp" />
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/tvort"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="30dp"
+        app:cardBackgroundColor="@color/black"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvblockiert">
+
+        <TextView
+            android:id="@+id/edort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="6dp"
+            android:text="Live Standort"
+            android:textColor="@color/white"
+            android:textSize="27dp" />
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/tvsave"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="50dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvort">
+
+        <TextView
+            android:id="@+id/edsave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="6dp"
+            android:text="Speichern"
+            android:textColor="@color/black"
+            android:textSize="27dp" />
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

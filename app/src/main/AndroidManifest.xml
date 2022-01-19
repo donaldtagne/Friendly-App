@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.myfirstapplication">
+
     <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,28 +12,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFirstApplication">
-
+        <activity
+            android:name=".Privacy"
+            android:exported="true"
+            android:theme="@style/Theme.Privacy"/>
+        <activity
+            android:name=".Profilscreen"
+            android:exported="true"
+            android:theme="@style/Theme.Profilscreen" />
         <activity
             android:name=".HomeScreen"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".IdentityVerificationScreen"
-            android:exported="true" >
-
-
-        </activity>
-
+            android:exported="true" />
         <activity
             android:name=".geschlecht"
             android:exported="true"
-            android:theme="@style/Theme.Geschlecht"/>
-
+            android:theme="@style/Theme.Geschlecht" />
         <activity
             android:name=".forget_pass"
             android:exported="true"
-            android:theme="@style/Theme.forget_pass"/>
+            android:theme="@style/Theme.forget_pass" />
         <activity
             android:name=".Interesse"
             android:exported="true"
@@ -39,7 +41,7 @@
         <activity
             android:name=".SingUpScreen"
             android:exported="true"
-            android:theme="@style/Theme.sing_up"/>
+            android:theme="@style/Theme.sing_up" />
         <activity
             android:name=".SplashScreen"
             android:exported="true"
@@ -49,7 +51,6 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
         <activity
             android:name=".MainActivity"
