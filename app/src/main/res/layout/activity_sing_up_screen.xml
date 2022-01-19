@@ -13,7 +13,7 @@
         android:id="@+id/register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="35dp"
         android:text="Registrierung"
         android:textSize="30dp"
         android:textColor="@color/black"
@@ -27,34 +27,35 @@
        android:id="@+id/tvUser"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
-       android:layout_marginStart="80dp"
-       android:layout_marginEnd="80dp"
+       android:layout_marginStart="35dp"
+       android:layout_marginEnd="35dp"
        android:hint="Username"
        app:layout_constraintTop_toBottomOf="@id/register"
-       android:layout_marginTop="25dp"
+       android:layout_marginTop="15dp"
        android:textColorHint="@color/black"
 
        >
+
        <EditText
            android:id="@+id/edUser"
            android:layout_width="match_parent"
            android:layout_height="match_parent"
-            android:drawableLeft="@drawable/ic_action_user"
+           android:drawableLeft="@drawable/ic_action_user"
            android:textSize="18dp"
 
 
-            />
-    </com.google.android.material.textfield.TextInputLayout>
+           />
+   </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tvmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="80dp"
-        android:layout_marginEnd="80dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
         android:hint="E-Mail"
         app:layout_constraintTop_toBottomOf="@id/tvUser"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="15dp"
         android:textColorHint="@color/black"
 
         >
@@ -71,12 +72,12 @@
         android:id="@+id/tvpass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="80dp"
-        android:layout_marginEnd="80dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
         android:hint="Passwort"
 
         app:layout_constraintTop_toBottomOf="@id/tvmail"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="15dp"
         android:textColorHint="@color/black"
         app:passwordToggleEnabled="true"
 
@@ -98,12 +99,12 @@
         android:id="@+id/tvpw"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="80dp"
-        android:layout_marginEnd="80dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
         android:hint="Passwort wiederholen"
         app:layout_constraintTop_toBottomOf="@id/tvpass"
         app:passwordToggleEnabled="true"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="15dp"
 
         android:textColorHint="@color/black"
 
@@ -123,11 +124,11 @@
         android:id="@+id/tvstadt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="80dp"
-        android:layout_marginEnd="80dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
         android:hint="Stadt"
         app:layout_constraintTop_toBottomOf="@id/tvpw"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="15dp"
         android:textColorHint="@color/black"
 
         >
@@ -138,6 +139,50 @@
             android:drawableLeft="@drawable/ic_action_stadt"
             />
     </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tvgeschlecht"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:hint="Geschlecht"
+        app:layout_constraintTop_toBottomOf="@id/tvstadt"
+        android:layout_marginTop="15dp"
+        android:textColorHint="@color/black"
+
+        >
+
+        <EditText
+            android:id="@+id/edgeschlecht"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/ic_baseline_transgender_24" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tvdatum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:hint="Geburtsdatum"
+        app:layout_constraintTop_toBottomOf="@id/tvgeschlecht"
+        android:layout_marginTop="15dp"
+        android:textColorHint="@color/black"
+
+        >
+        <EditText
+            android:id="@+id/eddatum"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/ic_action_datum"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
 
 
 
@@ -151,7 +196,7 @@
         app:cardCornerRadius="25dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvstadt"
+        app:layout_constraintTop_toBottomOf="@id/tvdatum"
         android:layout_marginBottom="20dp">
 
         <TextView

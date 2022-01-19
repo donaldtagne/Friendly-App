@@ -18,6 +18,8 @@ import com.example.myfirstapplication.databinding.ActivityMainBinding
 import com.google.android.material.textfield.TextInputEditText
 import kotlinx.android.synthetic.main.activity_main.*
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.database.FirebaseDatabase
+import kotlinx.android.synthetic.main.activity_sing_up_screen.*
 
 
 class MainActivity : AppCompatActivity() {
@@ -31,6 +33,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
 
 
 
@@ -130,7 +133,7 @@ class MainActivity : AppCompatActivity() {
         val passwordText = binding.edPassword.text.toString()
         if(passwordText.length < 8)
         {
-            return "Minimum 8 Character Password"
+            return "Minimum acht Character Password"
         }
 
         if(!passwordText.matches(".*[A-Z].*".toRegex())){//
@@ -143,6 +146,7 @@ class MainActivity : AppCompatActivity() {
             return "Muss 1 Sonderzeichen haben "
         }
         return null
+
     }
 
 
