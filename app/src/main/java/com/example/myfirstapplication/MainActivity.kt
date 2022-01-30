@@ -1,7 +1,5 @@
 package com.example.myfirstapplication
 
-
-
 import android.app.ProgressDialog
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -18,8 +16,6 @@ import com.example.myfirstapplication.databinding.ActivityMainBinding
 import com.google.android.material.textfield.TextInputEditText
 import kotlinx.android.synthetic.main.activity_main.*
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.database.FirebaseDatabase
-import kotlinx.android.synthetic.main.activity_sing_up_screen.*
 
 
 class MainActivity : AppCompatActivity() {
@@ -33,7 +29,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
 
 
 
@@ -86,8 +81,8 @@ class MainActivity : AppCompatActivity() {
 
         if(validPassword){
 
-                val intent = Intent(this, HomeScreen::class.java);
-                startActivity(intent);
+            val intent = Intent(this, HomeScreen::class.java);
+            startActivity(intent);
 
             resetForm()
 
@@ -157,5 +152,4 @@ class MainActivity : AppCompatActivity() {
 
 
 
-    }
-
+}

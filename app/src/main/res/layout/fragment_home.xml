@@ -33,7 +33,7 @@
             android:layout_height="64dp"
             android:layout_centerInParent="true"
             android:src="@drawable/icon_person"
-            app:tint="@color/purple_500" />
+            app:tint="@color/black" />
 
     </com.skyfishjy.library.RippleBackground>
 
@@ -49,7 +49,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="?attr/colorPrimary"
+            android:background="#22EA14"
             android:minHeight="?attr/actionBarSize"
             android:theme="?attr/actionBarTheme"
             app:titleTextColor="@color/white">
@@ -60,7 +60,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="Friendly"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="22sp"
                 android:textStyle="bold" />
 
@@ -71,7 +71,7 @@
                 android:layout_gravity="center|start"
                 android:backgroundTint="@android:color/transparent"
                 android:src="@drawable/icon_person"
-                app:tint="@color/white" />
+                app:tint="@color/black" />
 
 
         </androidx.appcompat.widget.Toolbar>
@@ -82,16 +82,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
-        android:layout_marginEnd="50dp"
         android:layout_marginTop="500dp"
+        android:layout_marginEnd="50dp"
         android:stepSize="10.0"
         android:valueFrom="0.0"
         android:valueTo="100.0"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/appBarLayout" />
-
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout"
+        app:layout_constraintVertical_bias="0.456" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

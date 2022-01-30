@@ -13,20 +13,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFirstApplication">
         <activity
-            android:name=".activityprofil"
-            android:exported="true"
-            android:theme="@style/Theme.profil"/>
-
-        <activity
             android:name=".New_Message_Activity"
             android:exported="true"
-            android:theme="@style/Theme.New_Message" />
+            android:theme="@style/Theme.New_Message">
+
+        </activity>
         <activity
             android:name=".HomeScreen"
-            android:exported="true" />
+            android:exported="true">
+
+
+
+        </activity>
         <activity
             android:name=".IdentityVerificationScreen"
-            android:exported="true" />
+            android:exported="true"></activity>
         <activity
             android:name=".geschlecht"
             android:exported="true"
@@ -47,11 +48,13 @@
             android:name=".SplashScreen"
             android:exported="true"
             android:theme="@style/Theme.SplashScreen">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
         <activity
             android:name=".MainActivity"
