@@ -10,6 +10,9 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.LinearSmoothScroller
 import androidx.recyclerview.widget.RecyclerView
 import com.example.myfirstapplication.R
+import com.example.myfirstapplication.RecyclerAdapter
+import com.xwray.groupie.GroupAdapter
+import kotlinx.android.synthetic.main.activity_new_message.*
 import kotlinx.android.synthetic.main.fragment_chat.*
 import kotlinx.android.synthetic.main.item_chat.view.*
 
@@ -28,10 +31,22 @@ class ChatFragment : Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+         var layoutManager: RecyclerView.LayoutManager? = null
+         var adapter : RecyclerView.Adapter<RecyclerAdapter.MViewHolder>? = null
         super.onViewCreated(view, savedInstanceState)
 
 
-        val chatList = mutableListOf(
+
+
+
+
+
+
+
+
+
+
+       /* val chatList = mutableListOf(
             Chat("Margarete Vogts", "Hey nettes Treffen."),
             Chat("Karen Alscher", "Hey nettes Treffen."),
             Chat("Ulla Graner", "Hey nettes Treffen."),
@@ -47,11 +62,16 @@ class ChatFragment : Fragment() {
             Chat("Sudhir Jakap", "Hey nettes Treffen."),
             Chat("Paderau McConnell", "Hey nettes Treffen."),
             Chat("An Öman", "Hey nettes Treffen."),
-        )
+        )*/
 
-        val adapter = ChatAdapter(chatList)
-        rvChats.adapter = adapter
-        rvChats.layoutManager = LinearLayoutManager(context)
+       // val adapter = ChatAdapter(chatList)
+       // rvChats.adapter = adapter
+
+
+
+
+
+       // rvChats.layoutManager = LinearLayoutManager(context)
 
         /*svChat.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(query: String?): Boolean {
@@ -69,4 +89,6 @@ class ChatFragment : Fragment() {
         })
 */
     }
+
+
 }
