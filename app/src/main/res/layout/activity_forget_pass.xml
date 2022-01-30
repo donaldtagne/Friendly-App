@@ -80,7 +80,7 @@
 
 
         <EditText
-            android:id="@+id/edUser"
+            android:id="@+id/eduser"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:drawableLeft="@drawable/ic_action_user"

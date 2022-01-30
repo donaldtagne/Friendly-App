@@ -92,7 +92,6 @@ class SingUpScreen : AppCompatActivity() {
                             binding.edpass.text?.clear()
                             binding.edgeschlecht.text?.clear()
                             binding.eddatum.text?.clear()
-
                             Toast.makeText(baseContext, "Successfully Saved",
                                 Toast.LENGTH_SHORT).show()
                             var intent =Intent(this, Interesse::class.java)
