@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.myfirstapplication">
+    package="com.example.myfirstapplication" >
 
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -11,17 +11,15 @@
         android:label="My first Application"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MyFirstApplication">
+        android:theme="@style/Theme.MyFirstApplication" >
+        <activity
+            android:name=".hobbysanpassung"
+            android:exported="true"
+            android:theme="@style/Theme.hobbysanpassung" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.MainActivity" />
-        <activity
-            android:name=".MainActivity2"
-            android:exported="true" />
-        <activity
-            android:name=".activity_main"
-            android:exported="true" />
         <activity
             android:name=".Privacy"
             android:exported="true"
@@ -55,7 +53,7 @@
         <activity
             android:name=".SplashScreen"
             android:exported="true"
-            android:theme="@style/Theme.SplashScreen">
+            android:theme="@style/Theme.SplashScreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

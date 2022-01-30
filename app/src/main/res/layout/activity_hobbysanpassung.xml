@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hobbysanpassung"
+    android:background="#1E90FF">
+
+    <TextView
+        android:id="@+id/hobby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hobbysanpassung"
+        android:textSize="35dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="50dp"
+
+        />
+
+    <ImageView
+        android:id="@+id/sport"
+        android:layout_width="126dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/sport"
+        app:layout_constraintLeft_toLeftOf="@id/hobby"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/hobby" />
+
+
+    <ImageView
+        android:id="@+id/movie"
+        android:layout_width="126dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="135dp"
+        android:src="@drawable/movie"
+        app:layout_constraintLeft_toLeftOf="@id/sport"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/sport" />
+    <ImageView
+        android:id="@+id/sprache"
+        android:layout_width="126dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="125dp"
+        android:src="@drawable/sprachen"
+        app:layout_constraintLeft_toLeftOf="@id/movie"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/movie" />
+    <ImageView
+        android:id="@+id/musik"
+        android:layout_width="126dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="125dp"
+        android:src="@drawable/musik"
+        app:layout_constraintLeft_toLeftOf="@id/sprache"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/sprache" />
+
+    <ImageView
+        android:id="@+id/luft"
+        android:layout_width="126dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="50dp"
+        android:src="@drawable/luft"
+        app:layout_constraintLeft_toRightOf="@id/hobby"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/hobby"
+        />
+
+    <ImageView
+        android:id="@+id/yoga"
+        android:layout_width="126dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="50dp"
+        android:src="@drawable/yoga"
+        app:layout_constraintLeft_toRightOf="@id/luft"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/luft"
+        />
+    <ImageView
+        android:id="@+id/lesen"
+        android:layout_width="126dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="50dp"
+        android:src="@drawable/lesen"
+        app:layout_constraintLeft_toRightOf="@id/yoga"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/yoga"
+        />
+    <ImageView
+        android:id="@+id/kochen"
+        android:layout_width="126dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="50dp"
+        android:src="@drawable/kochen"
+        app:layout_constraintLeft_toRightOf="@id/lesen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/lesen"
+        />
+    <androidx.cardview.widget.CardView
+        android:id="@+id/pass"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="25dp"
+        android:layout_marginBottom="20dp"
+        app:cardBackgroundColor="#22EA14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/kochen">
+
+        <TextView
+            android:id="@+id/passs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:text="Speichern"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
