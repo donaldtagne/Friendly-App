@@ -20,13 +20,13 @@
         app:itemTextColor="@color/black">
 
 
-        <androidx.cardview.widget.CardView
+        <!--<androidx.cardview.widget.CardView
             android:id="@+id/idchat"
             android:layout_width="30dp"
             android:layout_height="50dp"
             android:layout_marginLeft="330dp"
             app:cardBackgroundColor="#00000000"
-            android:layout_marginBottom="0dp" />
+            android:layout_marginBottom="0dp" />-->
     </com.google.android.material.bottomnavigation.BottomNavigationView>
 
     <FrameLayout

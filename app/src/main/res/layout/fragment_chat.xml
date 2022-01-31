@@ -13,6 +13,8 @@
         android:layout_marginTop="30dp"
         android:background="@drawable/svchat_backround"
         android:queryHint="Enter Friends Name"
+        android:textCursorDrawable= "@null"
+        android:queryBackground="@null"
         app:layout_constraintBottom_toTopOf="@+id/rvChats"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

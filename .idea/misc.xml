@@ -3,33 +3,40 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/biote/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/drawable-anydpi/ic_action_datum.xml" value="0.29583333333333334" />
+        <entry key="..\:/Users/biote/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/drawable/ic_launcher_background.xml" value="0.29583333333333334" />
+        <entry key="..\:/Users/biote/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.29583333333333334" />
         <entry key="..\:/Users/biote/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/drawable/icon_activity.xml" value="0.1" />
         <entry key="..\:/Users/biote/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/drawable/icon_camera.xml" value="0.43854166666666666" />
         <entry key="..\:/Users/biote/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/drawable/svchat_backround.xml" value="0.29583333333333334" />
-        <entry key="..\:/Users/biote/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_home_screeen.xml" value="0.21920289855072464" />
+        <entry key="..\:/Users/biote/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout-land/activity_main.xml" value="0.23677248677248677" />
+        <entry key="..\:/Users/biote/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_activityprofil.xml" value="0.45" />
+        <entry key="..\:/Users/biote/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_forget_pass.xml" value="0.27898550724637683" />
+        <entry key="..\:/Users/biote/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_hobbysanpassung.xml" value="0.27445652173913043" />
+        <entry key="..\:/Users/biote/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_home_screeen.xml" value="0.1" />
         <entry key="..\:/Users/biote/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_identity_verification_screen.xml" value="0.25" />
+        <entry key="..\:/Users/biote/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_interesse.xml" value="0.2796875" />
         <entry key="..\:/Users/biote/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_main.xml" value="0.21920289855072464" />
+        <entry key="..\:/Users/biote/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_profilscreen.xml" value="0.27445652173913043" />
+        <entry key="..\:/Users/biote/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_sing_up_screen.xml" value="0.2796875" />
+        <entry key="..\:/Users/biote/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_splash_screen.xml" value="0.2796875" />
         <entry key="..\:/Users/biote/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/fragment_activity.xml" value="0.21920289855072464" />
         <entry key="..\:/Users/biote/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/fragment_chat.xml" value="0.335" />
         <entry key="..\:/Users/biote/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/fragment_friends.xml" value="0.21920289855072464" />
-        <entry key="..\:/Users/biote/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/fragment_home.xml" value="0.21920289855072464" />
+        <entry key="..\:/Users/biote/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/fragment_home.xml" value="0.5" />
+        <entry key="..\:/Users/biote/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/item_activity1.xml" value="0.5546875" />
         <entry key="..\:/Users/biote/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/item_chat.xml" value="0.4234375" />
         <entry key="..\:/Users/biote/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/menu/menu.xml" value="0.2796875" />
         <entry key="..\:/Users/djeuf/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/drawable/ic_baseline_transgender_24.xml" value="0.26666666666666666" />
         <entry key="..\:/Users/djeuf/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/drawable/icon_chat.xml" value="0.176" />
         <entry key="..\:/Users/djeuf/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/drawable/icon_home.xml" value="0.18425925925925926" />
-        <entry key="..\:/Users/djeuf/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_activityprofil.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/djeuf/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_forget_pass.xml" value="0.25052083333333336" />
         <entry key="..\:/Users/djeuf/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_geschlecht.xml" value="0.25052083333333336" />
         <entry key="..\:/Users/djeuf/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_home_screeen.xml" value="0.152" />
         <entry key="..\:/Users/djeuf/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_interesse.xml" value="0.24666666666666667" />
         <entry key="..\:/Users/djeuf/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_main.xml" value="0.2296875" />
         <entry key="..\:/Users/djeuf/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_new_message.xml" value="0.25052083333333336" />
-        <entry key="..\:/Users/djeuf/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_profil.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/djeuf/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_profilscreen.xml" value="0.23854166666666668" />
         <entry key="..\:/Users/djeuf/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_sing_up_screen.xml" value="0.24666666666666667" />
-        <entry key="..\:/Users/djeuf/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_splash_screen.xml" value="0.18333333333333332" />
-        <entry key="..\:/Users/djeuf/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/fragment_activity.xml" value="0.23854166666666668" />
         <entry key="..\:/Users/djeuf/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/fragment_chat.xml" value="0.2" />
         <entry key="..\:/Users/djeuf/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/fragment_friends.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/djeuf/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/fragment_home.xml" value="0.25052083333333336" />
@@ -40,6 +47,43 @@
         <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_sing_up_screen.xml" value="0.1" />
         <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2021/app/src/main/res/layout/activity_splash_screen.xml" value="0.13405797101449277" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2022/app/src/main/res/drawable-anydpi/ic_action_datum.xml" value="0.2564814814814815" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2022/app/src/main/res/drawable-anydpi/ic_action_email.xml" value="0.2564814814814815" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2022/app/src/main/res/drawable-anydpi/ic_action_eye.xml" value="0.2564814814814815" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2022/app/src/main/res/drawable-anydpi/ic_action_name.xml" value="0.2564814814814815" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2022/app/src/main/res/drawable-anydpi/ic_action_pfeil.xml" value="0.2703125" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2022/app/src/main/res/drawable/buttonbg.xml" value="0.2564814814814815" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2022/app/src/main/res/drawable/ic_baseline_transgender_24.xml" value="0.2564814814814815" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2022/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2022/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.2703125" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2022/app/src/main/res/drawable/icon_activity.xml" value="0.2564814814814815" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2022/app/src/main/res/drawable/icon_add.xml" value="0.2703125" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2022/app/src/main/res/drawable/icon_chat.xml" value="0.2564814814814815" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2022/app/src/main/res/drawable/icon_home.xml" value="0.2564814814814815" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2022/app/src/main/res/drawable/icon_person.xml" value="0.2703125" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2022/app/src/main/res/drawable/svchat_backround.xml" value="0.2564814814814815" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2022/app/src/main/res/layout-land/activity_main.xml" value="0.21516754850088182" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2022/app/src/main/res/layout/activity_forget_pass.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2022/app/src/main/res/layout/activity_geschlecht.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2022/app/src/main/res/layout/activity_hobbysanpassung.xml" value="0.2" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2022/app/src/main/res/layout/activity_home_screeen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2022/app/src/main/res/layout/activity_identity_verification_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2022/app/src/main/res/layout/activity_interesse.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2022/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2022/app/src/main/res/layout/activity_main2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2022/app/src/main/res/layout/activity_privacy.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2022/app/src/main/res/layout/activity_profilscreen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2022/app/src/main/res/layout/activity_save_checked.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2022/app/src/main/res/layout/activity_sing_up_screen.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2022/app/src/main/res/layout/activity_splash_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2022/app/src/main/res/layout/fragment_activity.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2022/app/src/main/res/layout/fragment_chat.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2022/app/src/main/res/layout/fragment_friends.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise2022/app/src/main/res/layout/fragment_home.xml" value="0.176" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise21/app/src/main/res/layout-land/activity_main.xml" value="0.21516754850088182" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise21/app/src/main/res/layout/activity_forget_pass.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise21/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/nutzer/AndroidStudioProjects/friendly-ema-wise21/app/src/main/res/layout/activity_sing_up_screen.xml" value="0.1" />
       </map>
     </option>
   </component>

@@ -3,13 +3,17 @@ package com.example.myfirstapplication.fragments
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Filter
+import android.widget.Filterable
 import androidx.recyclerview.widget.RecyclerView
 import com.example.myfirstapplication.R
 import kotlinx.android.synthetic.main.item_chat.view.*
+import java.security.AlgorithmConstraints
 
-class ChatAdapter(
-    var chats: List<Chat>
-) : RecyclerView.Adapter<ChatAdapter.ChatViewHolder>(){
+
+class ChatAdapter(var chats: List<Chat>) : RecyclerView.Adapter<ChatAdapter.ChatViewHolder>(){
+
+
 
     inner class ChatViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
 
@@ -28,5 +32,8 @@ class ChatAdapter(
     override fun getItemCount(): Int {
         return chats.size
     }
+
+
+
 
 }
