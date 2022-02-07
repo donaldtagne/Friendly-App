@@ -17,7 +17,19 @@
         app:menu="@menu/menu"
         android:background="#22EA14"
         app:itemIconTint="@color/black"
-        app:itemTextColor="@color/black"/>
+        app:itemTextColor="@color/black">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/idchat"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="330dp"
+            app:cardBackgroundColor="#00000000"
+            android:layout_marginBottom="0dp" />
+
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
 
     <FrameLayout
         android:id="@+id/fragmentContainer"
@@ -25,5 +37,7 @@
         android:layout_height="0dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@id/bottomNavigation"/>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

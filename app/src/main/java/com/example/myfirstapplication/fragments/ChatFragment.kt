@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.LinearSmoothScroller
 import androidx.recyclerview.widget.RecyclerView
 import com.example.myfirstapplication.R
 import com.example.myfirstapplication.RecyclerAdapter
-import com.xwray.groupie.GroupAdapter
+
 import kotlinx.android.synthetic.main.activity_new_message.*
 import kotlinx.android.synthetic.main.fragment_chat.*
 import kotlinx.android.synthetic.main.item_chat.view.*

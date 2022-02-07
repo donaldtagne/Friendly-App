@@ -7,9 +7,6 @@ import androidx.constraintlayout.helper.widget.Carousel
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.firebase.database.*
-import com.xwray.groupie.GroupAdapter
-import com.xwray.groupie.GroupieViewHolder
-import com.xwray.groupie.Item
 import kotlinx.android.synthetic.main.activity_new_message.*
 
 class New_Message_Activity : AppCompatActivity() {

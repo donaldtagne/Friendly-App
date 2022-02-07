@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:backgroundTint="@color/purple_500"
+        android:backgroundTint="#00FF2A"
         android:elevation="6dp"
         android:src="@drawable/icon_camera"
         app:fabSize="normal"
@@ -38,6 +38,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="50dp"
         android:text="Weiter"
+        android:backgroundTint="#59FF00"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
