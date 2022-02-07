@@ -16,7 +16,7 @@ class HomeScreen : AppCompatActivity() {
     private val homeFragment = HomeFragment()
     private val activityFragment = ActivityFragment()
     private val friendsFragment = FriendsFragment()
-   // private val chatFragment = ChatFragment()
+    private val chatFragment = ChatFragment()
     //private lateinit var binding: AppCompatActivity
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,7 +28,7 @@ class HomeScreen : AppCompatActivity() {
                 R.id.icon_home -> replaceFragment(homeFragment)
                 R.id.icon_activity -> replaceFragment(activityFragment)
                 R.id.icon_friends -> replaceFragment(friendsFragment)
-              //R.id.icon_chat -> replaceFragment(chatFragment)
+                R.id.icon_chat -> replaceFragment(chatFragment)
 
               //  R.id.icon_chat -> startActivity(Intent(this, New_Message_Activity::class.java))
 
@@ -36,10 +36,10 @@ class HomeScreen : AppCompatActivity() {
             true
         }
 
-        idchat.setOnClickListener {
+        /*idchat.setOnClickListener {
             var intent = Intent(this, New_Message_Activity::class.java)
             startActivity(intent)
-        }
+        } //Unresolved reference: idchat*/
 
 
 

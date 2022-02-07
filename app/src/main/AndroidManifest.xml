@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.myfirstapplication" >
+    package="com.example.myfirstapplication">
 
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -11,55 +11,80 @@
         android:label="My first Application"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MyFirstApplication" >
+        android:theme="@style/Theme.MyFirstApplication">
+        <activity
+            android:name=".New_Message_Activity"
+            android:exported="true">
+            android:theme="@style/Theme.New_Message >
+
+        </activity>
+        <activity
+            android:name=".HomeScreen"
+            android:exported="true"
+            android:screenOrientation="portrait">
+
+
+
+        </activity>
+        <activity
+            android:name=".IdentityVerificationScreen"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activityprofil"
+            android:exported="true"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".hobbysanpassung"
             android:exported="true"
-            android:theme="@style/Theme.hobbysanpassung" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true"
-            android:theme="@style/Theme.MainActivity" />
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".Privacy"
             android:exported="true"
-            android:theme="@style/Theme.Privacy" />
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".Profilscreen"
             android:exported="true"
-            android:theme="@style/Theme.Profilscreen" />
-        <activity
-            android:name=".HomeScreen"
-            android:exported="true" />
-        <activity
-            android:name=".IdentityVerificationScreen"
-            android:exported="true" />
+            android:theme="@style/Theme.Profilscreen"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".geschlecht"
             android:exported="true"
-            android:theme="@style/Theme.Geschlecht" />
+            android:theme="@style/Theme.Geschlecht"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".forget_pass"
             android:exported="true"
-            android:theme="@style/Theme.forget_pass" />
+            android:theme="@style/Theme.forget_pass"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".Interesse"
             android:exported="true"
-            android:theme="@style/Theme.Interesse" />
+            android:theme="@style/Theme.Interesse"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".SingUpScreen"
             android:exported="true"
-            android:theme="@style/Theme.sing_up" />
+            android:theme="@style/Theme.sing_up"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".SplashScreen"
             android:exported="true"
-            android:theme="@style/Theme.SplashScreen" >
+            android:theme="@style/Theme.SplashScreen"
+            android:screenOrientation="portrait">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MainActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

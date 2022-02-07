@@ -34,14 +34,15 @@
                 android:textStyle="bold" />
 
             <ImageButton
-             android:id="@+id/Goback"
+                android:id="@+id/Goback"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center|start"
                 android:backgroundTint="@android:color/transparent"
-                android:src="@drawable/ic_arrow_back"
+                android:minHeight="48dp"
 
-                app:tint="@color/black"/>
+                android:src="@drawable/ic_arrow_back"
+                app:tint="@color/black" />
         </androidx.appcompat.widget.Toolbar>
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -73,9 +74,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="42dp"
-            android:text="Profil bearbeiten"
+            android:text="Profil anzeigen"
             android:textColor="@color/black"
-            android:textSize="30dp" />
+            android:textSize="30dp"/>
     </androidx.cardview.widget.CardView>
     <androidx.cardview.widget.CardView
         android:id="@+id/tvprivacy"
