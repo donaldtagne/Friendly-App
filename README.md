@@ -1,3 +1,5 @@
-# Friendly - EMA WiSe2021
+# Friendly 2021
 
-Projektarbeit für Entwicklung mobiler Anwendungen. Der App-Name lautet Friendly. Gruppenteilnehmer: Dominik Stämmler, Donald Tagne, Giresse Djeufack
+Eigenes Projekt.
+Der App-Name lautet Friendly. 
+Developper:  Donald Tagne, Giresse Djeufack
